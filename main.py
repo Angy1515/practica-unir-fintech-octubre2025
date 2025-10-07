@@ -47,3 +47,6 @@ if __name__ == "__main__":
         word_list = remove_duplicates_from_list(word_list)
 
     print(sort_list(word_list))
+
+▸Aceptar un nuevo parámetro de línea de comandos que indique si el orden debe ser ascendente o descendente.
+▸Aceptar un nuevo parámetro de línea de comandos que indique si es necesario eliminar palabras duplicadas de la lista antes de imprimirlas (en este caso habrá que modificar la función sort_list).
