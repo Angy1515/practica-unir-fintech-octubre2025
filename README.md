@@ -17,6 +17,7 @@ python3 main.py <filename> <dup> <order>
 *Parámetros:*
 - filename: *ruta* al fichero que contiene la lista de palabras, una por línea
 - dup: *yes|no*, yes para eliminar palabras duplicadas, no para mantener la lista
+- lenguaje: *en|es*, para indicar si se desea en ingles o en español, por defecto será español
 - order: *asc|desc*, asc para orden ascendente, desc para orden descendente
 
 ### Uso con Makefile
@@ -55,6 +56,10 @@ $ python main.py palabras.txt no desc
 Se leerán las palabras del fichero palabras.txt
 ['zebra', 'ocean', 'mountain', 'elephant', 'computer', 'butterfly', 'apple']
 
+bash
+python3 main.py palabras.txt no en
+Words will be read from the file palabras.txt
+['adventure', 'apple', 'butterfly', 'chocolate', 'computer', 'courage', 'discovery', 'elephant', 'freedom', 'guitar', 'harmony', 'journey', 'mountain', 'ocean', 'rainbow', 'serenity', 'sunshine', 'universe', 'wisdom', 'zebra']
 
 ### Con Makefile:
 
